@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Stylish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-family: "Stylish", serif;
+
+
+
+}
+
+.main-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.main-container h1 {
+    text-transform: capitalize;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 70px;
+
+}
+
+.main-container ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: end;
+    text-transform: capitalize;
+}
+
+.main-container ul li {
+    margin-left: 20px;
+
+}
+
+.main-container ul li a {
+    padding-right: 23px;
+    color: white;
+    font-size: 25px;
+}
+
+.imaages {
+    margin-left: 25px;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.imaages p {
+    position: absolute;
+    left:150px;
+    top: 45%;
+    color: white;
+    font-size: 48px;
+    font-weight: 200px;
+    
+
+}
+.btn{
+    position: absolute;
+    left: 150px;
+    top: 55%;
+    font-size: large;
+    padding: 10PX;
+    border-radius: 8px;
+    background-color: rgb(210, 210, 12);
+    letter-spacing: 2px;
+    border: none;
+
+}
+
+#explore{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 80px;
+    text-transform: uppercase;
+    
+}
+
+.parotta img ,.bun img ,.fud-frt img,.fruit img{
+
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.parotta,.bun,.fud-frt,.fruit{
+    padding-top: 40px;
+    padding-right: 60px ;
+    padding-left: 80px;
+    margin-left: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(158, 158, 158);
+    
+}
+.src{
+
+    position: absolute;
+    top: 60px;
+}
+
+.btn-src{
+
+    position: absolute;
+    top: 90px;
+}
+
+.search-area-svelte-ozqdd1{
+    text-align: center;
+    background-color: rgb(204, 197, 197);
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.search-area__title-svelte-ozqdd1{
+    font-weight: lighter;
+    letter-spacing: 10px;
+
+}
+.search__input{
+    width: 800px;
+    height: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.button{
+
+    background: yellow;
+    width: 120px;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    margin: 20px;
+    font-size: large;
+
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
